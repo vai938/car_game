@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+}
+.head-title {
+  font-size: 2rem;
+  color: black;
+  padding: 10px;
+}
+.full-screen {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  border: 2px solid blue;
+  background-color: white;
+}
+.background {
+  margin-left: 100px;
+  margin-top: 10px;
+  width: 585px;
+  height: 400px;
+  background: url("back.jpg") repeat-x;
+}
+
+.controller {
+  display: none;
+}
+
+/* After the full screen */
+
+.heading-new {
+  width: 100%;
+  height: auto;
+  display: flex;
+  border: 2px solid black;
+  background-color: black;
+  justify-content: space-between;
+}
+.head-title-new {
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  margin-left: 100px;
+}
+.full-screen-new {
+  margin-right: 10px;
+  margin-top: 6px;
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  border: 2px solid blue;
+  background-color: white;
+}
+.background-container {
+  overflow: hidden;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 1000px;
+  height: 650px;
+}
+.background-new {
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 1000px;
+  height: 650px;
+  background: url("back.jpg") repeat-x;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.controller-new {
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  width: 300px;
+  height: 650px;
+  border-radius: 10px;
+  background-color: rgb(104, 90, 90);
+}
+#userCar {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 70px;
+  top: 500px;
+}
+@keyframes run {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100vw 0;
+  }
+}
+
+.btn{
+  font-size: 1.4rem;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
